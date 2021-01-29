@@ -1,9 +1,17 @@
 package com.example.products;
 
 public class Produkt {
+    int id;
     String productName, productType, count;
 
     public Produkt(String productName, String productType, String count) {
+        this.productName = productName;
+        this.productType = productType;
+        this.count = count;
+    }
+
+    public Produkt( int id, String productName, String productType, String count) {
+        this.id = id;
         this.productName = productName;
         this.productType = productType;
         this.count = count;

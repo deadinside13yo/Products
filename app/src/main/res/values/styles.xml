@@ -7,4 +7,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Theme.AnimateOptions.A">
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/image_animate</item>
+        <item name="android:windowSharedElementExitTransition">@transition/image_animate</item>
+    </style>
 </resources>
